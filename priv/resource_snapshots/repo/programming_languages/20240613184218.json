@@ -1,0 +1,51 @@
+{
+  "attributes": [
+    {
+      "default": "nil",
+      "size": null,
+      "type": "uuid",
+      "source": "id",
+      "references": null,
+      "allow_nil?": false,
+      "primary_key?": true,
+      "generated?": false
+    },
+    {
+      "default": "nil",
+      "size": null,
+      "type": "text",
+      "source": "name",
+      "references": null,
+      "allow_nil?": false,
+      "primary_key?": false,
+      "generated?": false
+    }
+  ],
+  "table": "programming_languages",
+  "hash": "200F7BE5FEDAFF89F3F86695FB3AC1CCE0078FB65F33DFC239168AE3913CECDF",
+  "repo": "Elixir.Helpdesk.Repo",
+  "schema": null,
+  "check_constraints": [],
+  "identities": [
+    {
+      "name": "name",
+      "keys": [
+        "name"
+      ],
+      "where": null,
+      "base_filter": null,
+      "all_tenants?": false,
+      "nils_distinct?": true,
+      "index_name": "programming_languages_name_index"
+    }
+  ],
+  "custom_indexes": [],
+  "multitenancy": {
+    "global": null,
+    "strategy": null,
+    "attribute": null
+  },
+  "base_filter": null,
+  "custom_statements": [],
+  "has_create_action": true
+}

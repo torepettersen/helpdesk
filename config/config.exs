@@ -3,7 +3,7 @@ import Config
 # This should already have been added in the first
 # getting started guide
 config :helpdesk,
-  ash_domains: []
+  ash_domains: [Helpdesk.Support]
 
 config :helpdesk,
   ecto_repos: [Helpdesk.Repo]
