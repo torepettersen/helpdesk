@@ -1,6 +1,6 @@
 # Helpdesk
 
-## Reproduce many to manny error
+## Reproduce many to many error
 
 Setup the database and start iex
 ```bash
