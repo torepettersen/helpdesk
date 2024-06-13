@@ -10,6 +10,6 @@ $ iex -S mix
 
 ```elixir
 iex> job = Ash.create!(Helpdesk.Support.Job, %{title: "Backend Developer"})
-iex> job = Ash.update!(job, %{programming_languages: [%{name: "Elixir"}])
-iex> job = Ash.update!(job, %{programming_languages: [%{name: "Elixir"}])
+iex> job = Ash.update!(job, %{programming_languages: [%{name: "Elixir"}]})
+iex> job = Ash.update!(job, %{programming_languages: [%{name: "Elixir"}]})
 ```
